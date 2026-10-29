@@ -1,0 +1,24 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,sans-serif;margin:0 auto;max-width:760px;padding:0 16px 40px;color:#1a1a1a;background:#f7f9fb}
+.topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:20px 0 8px}
+h1{margin:0;font-size:26px}.tagline{color:#555;margin:6px 0 0}
+.lang-btn,.tab-btn,.filter-chip,button{cursor:pointer;border:1px solid #ccc;background:#fff;border-radius:8px;padding:8px 14px;font-size:15px}
+.lang-btn{white-space:nowrap}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tab-btn.active,.filter-chip.active{background:#0b3d66;color:#fff;border-color:#0b3d66}
+main{background:#fff;border-radius:12px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.hidden{display:none}
+label{display:block;font-weight:600;margin:12px 0 6px}
+input[type=tel],input[type=search],textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:8px;font-size:16px}
+.row{display:flex;gap:8px;flex-wrap:wrap}.row input{flex:1;min-width:200px}
+button.primary{background:#0b3d66;color:#fff;border-color:#0b3d66}
+.error{background:#fdecea;color:#8b1a1a;border:1px solid #f5c2c0;border-radius:8px;padding:12px;margin-top:14px}
+.result-card{border:1px solid #cfe3f2;background:#eef6fc;border-radius:10px;padding:16px;margin-top:14px}
+.big{font-size:22px;font-weight:700;margin-bottom:8px}.muted{color:#555}.note{margin-top:10px;font-size:14px;color:#444}
+.badge{color:#fff;padding:2px 10px;border-radius:20px;font-size:13px;white-space:nowrap}
+.fmt-list{margin-top:8px}.fmt-row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #eee}
+.copy-btn{font-size:13px;padding:5px 10px}
+table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:8px;border-bottom:1px solid #eee}
+tr.dim{color:#777}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.hist-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #eee}
+.empty{color:#777;padding:12px 0}footer{color:#666;font-size:13px;margin-top:16px;line-height:1.5}
+@media(max-width:480px){h1{font-size:22px}.big{font-size:19px}main{padding:14px}}
